@@ -1,11 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
 :root{
     --cor-de-fundo: #FBF6D8;
     --cor-da-fonte: #431F14;
+    --cor-butao-primario: #EBBF0A;
 }
 
 body{
     background-color: var(--cor-de-fundo);
     color: var(--cor-da-fonte);
+    font-family:  "Rubik", sans-serif;
+}
+
+@media (max-width:450px) {
+    
+    .titulo{
+        font-size: 33px;
+        font-weight: 600;
+        text-align: center;
+        margin: 20px 0 ;
+    }
+
+    .section-principal{
+        margin: 20px 10px;
+    }
 }
 
 .navbar{
@@ -36,8 +55,6 @@ body{
     margin-left: 30px;
 }
 
-.container-fluid{
-}
 
 .logo{
     width: 110px;
@@ -50,6 +67,3 @@ body{
 }
 
 
-.titulo{
-    font-size: 72px;
-}
