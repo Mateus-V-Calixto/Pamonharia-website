@@ -8,6 +8,8 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -40,24 +42,89 @@
     </nav>
 
     <!--conteudo-->
-    <div  class="container">
+    <div class="container">
         <section class="row section-principal">
-            <div class="col-lg-6"> 
-                <h1 class="titulo">Tempero de Goiano. O nosso jeito de fazer Pamonha!</h1> 
-                <p class="text-center texto-secundario">Confira nossos produtos ou conheça um pouco mais da nossa história.</p>
+            <div class="col-lg-6">
+                <h1 class="titulo">Tempero Goiano. O nosso jeito de fazer Pamonha!</h1>
+                <p class="text-center texto-secundario">Confira nossos produtos ou conheça um pouco mais da nossa
+                    história.</p>
 
                 <div class="section-button text-center">
-                    <button class="btn btn-primary">Nosso Cardápio</button>
-                    
-                    <button class="btn btn-primary">Nossa história</button>
+                    <button class="btn btn-primario">Nosso Cardápio</button>
+
+                    <button class="btn btn-secundario">Nossa história</button>
                 </div>
             </div>
-            <div class="col-lg-6"><img src="img/Captura_de_tela_2024-05-20_185533-removebg-preview.png" alt=""></div>
+            <div class="col-lg-6"><img src="img/Captura_de_tela_2024-05-20_185533-removebg-preview.png"
+                    class="img-fluid imagem-section-principal" alt=""></div>
+        </section>
+
+
+        <!--Cardapio-->
+        <section class="section-cardapio">
+            <h2 class="titulo-cardapio">Conheça nosso cardápio</h2>
+            <p class="texto-secundario">Conheça os nossos melhores produtos.</p>
+
+
+            <button class="btn btn-esquerdo control" aria-label="Previous image"><i class="fa-solid fa-arrow-left"></i></button>
+            <button class="btn btn-direito control" aria-label="Next Image"><i class="fa-solid fa-arrow-right"></i></button>
+            <div class="cards-wrapper">
+
+
+                <div class="cards">
+                    <div class="card">
+                        <img src="img/IMG-20240521-WA0035.jpg" class="card-img-top img-fluid img-card" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Pamonha...</h5>
+                            <p class="card-text">Pamonha de .......</p>
+                            <a href="#" class="btn btn-whats">Pedir por whatsapp <i class="fa-brands fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        
+                        <img src="img/IMG-20240521-WA0035.jpg" class="card-img-top img-fluid img-card" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Pamonha...</h5>
+                            <p class="card-text">Pamonha de .......</p>
+                            <a href="#" class="btn btn-whats">Pedir por whatsapp <i class="fa-brands fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        
+                        <img src="img/IMG-20240521-WA0035.jpg" class="card-img-top img-fluid img-card" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Pamonha...</h5>
+                            <p class="card-text">Pamonha de .......</p>
+                            <a href="#" class="btn btn-whats">Pedir por whatsapp <i class="fa-brands fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/IMG-20240521-WA0035.jpg" class="card-img-top img-fluid img-card" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Pamonha...</h5>
+                            <p class="card-text">Pamonha de .......</p>
+                            <a href="#" class="btn btn-whats">Pedir por whatsapp <i class="fa-brands fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        
+                        <img src="img/IMG-20240521-WA0035.jpg" class="card-img-top img-fluid img-card" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Pamonha...</h5>
+                            <p class="card-text">Pamonha de .......</p>
+                            <a href="#" class="btn btn-whats">Pedir por whatsapp <i class="fa-brands fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
         </section>
     </div>
 
 
 
+    <script src="js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
