@@ -43,9 +43,9 @@
 
     <!--conteudo-->
     <div class="container">
-        <section class="row section-principal">
-            <div class="col-lg-6">
-                <h1 class="titulo">Tempero Goiano. O nosso jeito de fazer Pamonha!</h1>
+        <section class="row section-principal mt-5">
+            <div class="col-md-6">
+                <h1 class="titulo mt-lg-5" id="titulo-principal">Tempero Goiano. O nosso jeito de fazer Pamonha!</h1>
                 <p class="text-center texto-secundario">Confira nossos produtos ou conheça um pouco mais da nossa
                     história.</p>
 
@@ -55,7 +55,7 @@
                     <button class="btn btn-secundario">Nossa história</button>
                 </div>
             </div>
-            <div class="col-lg-6"><img src="img/Captura_de_tela_2024-05-20_185533-removebg-preview.png"
+            <div class="col-md-6"><img src="img/Captura_de_tela_2024-05-20_185533-removebg-preview.png"
                     class="img-fluid imagem-section-principal" alt=""></div>
         </section>
 
@@ -68,6 +68,7 @@
 
             <button class="btn btn-esquerdo control" aria-label="Previous image"><i class="fa-solid fa-arrow-left"></i></button>
             <button class="btn btn-direito control" aria-label="Next Image"><i class="fa-solid fa-arrow-right"></i></button>
+            <button class="btn btn-primario">Nosso Cardápio</button>
             <div class="cards-wrapper">
 
 
@@ -118,11 +119,96 @@
 
                 </div>
             </div>
-
         </section>
+
+        <!--Hsitoria-->
+        <section class="section-historia mt-md-5">
+            <h2 class="titulo-cardapio">Um pouco da nossa história</h2>
+
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <p class="texto-história">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum fugiat repellat error magnam dicta odio ipsa dignissimos expedita excepturi amet totam quam, aspernatur temporibus magni doloremque sapiente dolor. Modi, necessitatibus?
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, amet autem, sequi dolor numquam esse nam officia fuga ipsam pariatur est quis obcaecati corrupti? Sunt corrupti dicta animi natus a.
+                    </p>
+    
+                </div>
+                <div class="col-12 col-md-6">
+                    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active" data-bs-interval="5000">
+                            <img src="img/IMG-20240521-WA0035.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item" data-bs-interval="5000">
+                            <img src="img/IMG-20240521-WA0037.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                              <img src="img/IMG-20240522-WA0041.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                    <button class="btn btn-primario mt-2">Ver História completa</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-localizacao mt-md-5">
+            <h2>Venha conhecer pessoalmente!</h2>
+            <p class="texto-secundario">Lorem ipsum dolor sit amet consectetur.</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3837.2145841909287!2d-47.78616162527109!3d-15.897825125509652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a2139df31733f%3A0xb88c629cd60de6ab!2sPamonharia%20A%20Saborosa!5e0!3m2!1spt-BR!2sbr!4v1716499263574!5m2!1spt-BR!2sbr" class="maps" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <section class="section-pedido mt-md-5">
+            <h1 class="titulo text-center">Peça pelo Ifood ou pelo Whatsapp!</h1>
+                <p class="text-center texto-secundario">Receba nossas delicias de milho no conforto do seu lar.</p>
+
+                <div class="section-button text-center">
+                    <button class="btn btn-ifood mx-3"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1" x="0px" y="0px" viewBox="0 0 864 478" style="enable-background:new 0 0 864 478;" xml:space="preserve"> <style type="text/css"> .st0{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;} </style> <g> <path class="st0" d="M850.59,14.04H786.7l-2.09,9.81c-4.9,22.83-9.43,47.09-14.65,69.51l-12.9-2.08 c-21.56-2.67-42.09,2.78-59.54,14.24l-8.82,6.16c-5.53,4.14-11.39,9.35-16.24,14.18c-1.46,1.45-2.02,2.51-3.5,3.97 c-5.34,5.24-12.54,15.11-16.65,21.26c-7.73,11.61-15.25,25.61-20.1,40.26c-4.63,13.98-9.59,34.57-5.1,51.93 c3.91,15.14,13.89,27.4,28.57,31.8c14.81,4.43,40.04-1.55,50.55-6.63c11.67-5.62,26.62-15.59,32.89-27.47h3.09 c0,3.67-7.23,28.17-7.49,31.29h63.45l32.79-161.1c2.17-10.88,4.21-21.38,6.53-32.25L850.59,14.04z M850.59,14.04"></path> <path class="st0" d="M504.26,276.68c28.5,0,53.48-9.7,75.35-26.43c1.5-1.14,2.85-2.38,4.35-3.59c6.54-5.28,14.06-13.29,19.26-19.95 c5.6-7.18,11.27-15.75,15.31-23.91c6.86-13.84,13.52-33.09,13.52-49.5c0-14.92-1.54-24.71-10.26-36.45 c-3.12-4.21-8.04-9.05-12.3-11.93c-3.32-2.26-6.28-4.25-9.89-5.97c-11.27-5.36-26.45-9.11-38.92-9.11 c-20.1,0-29.62,1.22-48.42,7.98c-3.88,1.39-12.37,5.36-16.17,7.63c-25.76,15.38-43.43,35.19-56.43,64.3 c-2.62,5.87-4.26,11.31-6.27,17.53c-1.96,6.1-3,13.47-3.91,20.34l-0.5,11.27c1.3,11.31,2,17.61,8.75,27.82 c9.71,14.74,27.78,24.16,44.76,27.51C489.1,275.53,496.6,276.68,504.26,276.68L504.26,276.68z M504.26,276.68"></path> <path class="st0" d="M303.34,276.68c28.5,0,53.48-9.7,75.35-26.43c8.25-6.31,17.2-15.33,23.61-23.54 c10.7-13.72,19.41-29.37,24.23-46.27c6.08-21.32,8.18-44.91-5.66-63.59c-5.5-7.42-13.9-13.95-22.19-17.9 c-1.89-0.91-3.61-1.59-5.57-2.36l-5.88-2.05c-18.08-5.89-38.45-5.97-57.19-2.23c-10.95,2.18-21.26,5.91-30.8,11.06l-7.7,4.2 c-1.34,0.85-2.36,1.59-3.7,2.47c-2.62,1.75-4.71,3.17-7.21,5.12c-18.24,14.24-31.87,32.16-41.9,54.6 c-2.62,5.87-4.25,11.31-6.26,17.53c-1.97,6.1-3,13.47-3.91,20.34l-0.5,11.27c1.28,11.31,2,17.61,8.74,27.82 c5.07,7.68,10.86,12.49,18.43,17.27C268.2,272.18,287.54,276.68,303.34,276.68L303.34,276.68z M303.34,276.68"></path> <path class="st0" d="M148.24,93.36h-22.47l-5.18,26.99c-0.41,2.08-1.24,7.83-1.87,9.14h22.03l-9.7,48.03 c-0.67,4.15-1.62,7.94-2.45,12.09c-0.87,4.35-1.44,8.11-2.39,12.14l-4.81,24.29c-2.8,14.03-7.33,34.44-9.68,48.04l-9.74,48.42 h64.33c0-3.01,1.57-8.97,2.16-11.93l36.17-181.52h46.7l5.4-26.77c0.54-2.73,1.65-6.12,1.65-9.37h-47.15 c0.18-2.2,0.91-5.38,1.26-7.55c1.28-7.84,2.99-13.83,6.67-20.65c3.92-7.27,12.51-12.77,23.8-12.77c12.18,0,22.74,0.47,34.1,4.23 c2.44,0.81,5.95,2.63,8.19,2.81l7.5-37.46c-2.18-1.04-6.3-2.13-9.08-2.83c-3.52-0.88-6.32-1.6-10.06-2.28 c-7.28-1.31-14.94-2.16-22.66-2.38h-8.03c-12.63,0.38-25.13,2.62-36.11,7.48c-8.85,3.92-19.91,9.85-26.75,16.86 c-6.53,6.68-9.35,8.65-15.01,17.18C157.48,66.98,151.57,79.07,148.24,93.36L148.24,93.36z M148.24,93.36"></path> <path class="st0" d="M500.3,355.12c-1.17,1.74-4.99,4.97-6.95,6.71l-3.63,2.99c-8.97,6.98-14.21,10.68-24.26,16.71l-13.38,7.34 c-3.54,1.46-5.79,2.87-9.32,4.34c-23.26,9.66-38.1,14.9-64.27,18.58l-25.37,1.95l-13.35-0.77c-17.97-2.34-26.13-3.11-44.57-10.51 c-17.49-7.02-36.96-19.07-50.15-32.25c-2.38-2.38-4.44-4.46-6.83-6.83c-10.24-10.24-19.02-23.68-25.53-36.62 c-2.52-5.03-0.32-4.26-6.31-4.26c0.06,2.2,0.99,5.56,1.5,7.77c3.82,16.78,10.54,33.89,19.18,48.23c2.41,3.98,4.66,7.74,7.34,11.61 l8.36,11.03c3.66,4.69,14.48,16.32,18.83,19.95c11.06,9.25,14.94,12.6,27.49,20.1c23.39,14.01,53.14,22.77,83.42,22.77 c34.85,0,49.41-1.69,81.85-10.66c3.2-0.88,6.55-2.14,9.96-3.27c8.76-2.91,19.78-7.73,27.6-11.62c1.49-0.75,2.63-1.4,3.98-2.19 c7.68-4.47,12.14-6.52,20.51-12.09l11.54-8.29c3.12-2.09,8.62-7.41,11.11-8.73l9.25,26.44c1.72,4.29,3.07,8.8,4.68,13.39 c0.81,2.32,1.58,4.29,2.31,6.51c0.71,2.13,2.07,4.73,2.26,6.99h0.89c0-2.78,21.55-109.83,25.44-129.23 c0.4-2.03,1.25-7.41,1.88-8.71c-1.96-0.04-3.1-0.46-5.73-0.44h-96.49c-2.84,0-25.06-0.35-25.07-0.33c-1.53,0.4-0.73,0.54-0.08,1.13 L493,349.2c1.42,1.07,2.33,1.86,3.71,2.9C497.94,353.02,499.5,353.94,500.3,355.12L500.3,355.12z M500.3,355.12"></path> <path class="st0" d="M13.41,272.27H77.3l4.37-22.07c1.5-7.53,2.92-15.08,4.4-22.47l17.7-89.37c0.72-3.62,1.54-7.34,2.16-11.06 l6.61-33.93H49.1l-6.65,33.01C38.03,148.26,13.47,269.18,13.41,272.27L13.41,272.27z M13.41,272.27"></path> <path class="st0" d="M54.83,66.04h62.12c1.96,0,2.96-8.84,3.64-12.24l7.82-39.77H65.84c-1.95,0.42-1.09,0.49-2.02,5.47L55.9,59.17 C55.49,61.46,54.83,63.89,54.83,66.04L54.83,66.04z M54.83,66.04"></path> </g> </svg> Pedir pelo Ifood</button>
+
+                    <button class="btn btn-whats mx-3"><i class="fa-brands fa-whatsapp"></i> Pedir pelo Whatsapp</button>
+                </div>
+        </section>
+
     </div>
 
 
+    <!--Footer-->
+    <footer class="footer ">
+        <div class="container pt-5 pb-5">
+            <div class="row">
+                <div class="col-6 col-md-4 col-lg-3">
+                    <img src="img/Captura_de_tela_2024-05-20_185533-removebg-preview.png" class="logo" alt="Logo da pamonharia">
+                    <a class="navbar-brand titulo-navbar titulo" id="titulo-footer" href="#">A Saborosa</a>
+
+                </div>
+
+                <div class="col-md-4 col-lg-3" id="espaco1">
+                </div>
+
+                <div class="col-md-3 col-lg-3" id="espaco2">
+                </div>
+
+                <div class=" col-6 col-md-4 col-lg-3" >
+                    <h5 class="contato">Entre em contato</h5>
+
+                    <div class="borda"></div>
+
+                    <a href=""><i class="fa-brands fa-whatsapp icon-footer"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram icon-footer"></i></a>
+
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <script src="js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
