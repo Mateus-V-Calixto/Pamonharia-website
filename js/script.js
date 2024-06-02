@@ -37,3 +37,12 @@ controls.forEach((controle) => {
         });
     })
 })
+
+/*whats*/
+const btnWhats = document.querySelectorAll(".btn-whats");
+
+btnWhats.forEach((btn) => {
+    btn.addEventListener("click", (e)=> {
+        window.location.assign("https://api.whatsapp.com/message/M46WSHNRQK4QH1?autoload=1&app_absent=0");
+    })
+})

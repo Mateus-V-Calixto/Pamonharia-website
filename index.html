@@ -11,6 +11,8 @@
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
+
+    <link rel="shortcut icon" href="img/Captura_de_tela_2024-05-20_185533-removebg-preview.png" type="image/x-icon">
 </head>
 
 <body>
@@ -25,16 +27,16 @@
             <div class="collapse navbar-collapse  justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#conteudo">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">História</a>
+                        <a class="nav-link" href="#historia">História</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Cardápio</a>
+                        <a class="nav-link" href="#cardapio">Cardápio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contato</a>
+                        <a class="nav-link" href="#contato">Contato</a>
                     </li>
                 </ul>
             </div>
@@ -42,7 +44,7 @@
     </nav>
 
     <!--conteudo-->
-    <div class="container">
+    <div class="container" id="conteudo">
         <section class="row section-principal mt-5">
             <div class="col-md-6">
                 <h1 class="titulo mt-lg-5" id="titulo-principal">Tempero Goiano. O nosso jeito de fazer Pamonha!</h1>
@@ -61,23 +63,23 @@
 
 
         <!--Cardapio-->
-        <section class="section-cardapio">
+        <section class="section-cardapio" id="cardapio">
             <h2 class="titulo-cardapio">Conheça nosso cardápio</h2>
             <p class="texto-secundario">Conheça os nossos melhores produtos.</p>
 
 
             <button class="btn btn-esquerdo control" aria-label="Previous image"><i class="fa-solid fa-arrow-left"></i></button>
             <button class="btn btn-direito control" aria-label="Next Image"><i class="fa-solid fa-arrow-right"></i></button>
-            <button class="btn btn-primario">Nosso Cardápio</button>
+            <a href="https://api.whatsapp.com/message/M46WSHNRQK4QH1?autoload=1&app_absent=0" target="_blank" class="btn btn-primario">Nosso Cardápio</a>
             <div class="cards-wrapper">
 
 
                 <div class="cards">
                     <div class="card">
-                        <img src="img/IMG-20240521-WA0035.jpg" class="card-img-top img-fluid img-card" alt="...">
+                        <img src="img/doce.jpg" class="card-img-top img-fluid img-card" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Pamonha...</h5>
-                            <p class="card-text">Pamonha de .......</p>
+                            <h5 class="card-title">Pamonha Doce</h5>
+                            <p class="card-text">Pamonha de doce com queijo, 380g</p>
                             <a href="#" class="btn btn-whats">Pedir por whatsapp <i class="fa-brands fa-whatsapp"></i></a>
                         </div>
                     </div>
@@ -85,8 +87,25 @@
                         
                         <img src="img/IMG-20240521-WA0035.jpg" class="card-img-top img-fluid img-card" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Pamonha...</h5>
-                            <p class="card-text">Pamonha de .......</p>
+                            <h5 class="card-title">Pamonha Sal</h5>
+                            <p class="card-text">Pamonha de sal com queijo, 380g </p>
+                            <a href="#" class="btn btn-whats">Pedir por whatsapp <i class="fa-brands fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        
+                        <img src="img/moda.jpg" class="card-img-top img-fluid img-card" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Pamonha A Moda</h5>
+                            <p class="card-text">Pamonha de linguiça apimentada e quijo, 400g</p>
+                            <a href="#" class="btn btn-whats">Pedir por whatsapp <i class="fa-brands fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/IMG-20240521-WA0035.jpg" class="card-img-top img-fluid img-card" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Pamonha Carne</h5>
+                            <p class="card-text">Pamonha de Carne de sol e queijo, 400g</p>
                             <a href="#" class="btn btn-whats">Pedir por whatsapp <i class="fa-brands fa-whatsapp"></i></a>
                         </div>
                     </div>
@@ -94,25 +113,8 @@
                         
                         <img src="img/IMG-20240521-WA0035.jpg" class="card-img-top img-fluid img-card" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Pamonha...</h5>
-                            <p class="card-text">Pamonha de .......</p>
-                            <a href="#" class="btn btn-whats">Pedir por whatsapp <i class="fa-brands fa-whatsapp"></i></a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="img/IMG-20240521-WA0035.jpg" class="card-img-top img-fluid img-card" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Pamonha...</h5>
-                            <p class="card-text">Pamonha de .......</p>
-                            <a href="#" class="btn btn-whats">Pedir por whatsapp <i class="fa-brands fa-whatsapp"></i></a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        
-                        <img src="img/IMG-20240521-WA0035.jpg" class="card-img-top img-fluid img-card" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Pamonha...</h5>
-                            <p class="card-text">Pamonha de .......</p>
+                            <h5 class="card-title">Pamonha Romeu e Julieta</h5>
+                            <p class="card-text">Pamonha de doce com goiabada e queijo 400g</p>
                             <a href="#" class="btn btn-whats">Pedir por whatsapp <i class="fa-brands fa-whatsapp"></i></a>
                         </div>
                     </div>
@@ -122,14 +124,17 @@
         </section>
 
         <!--Hsitoria-->
-        <section class="section-historia mt-md-5">
+        <section class="section-historia mt-md-5" id="historia">
             <h2 class="titulo-cardapio">Um pouco da nossa história</h2>
 
             <div class="row">
                 <div class="col-12 col-md-6">
                     <p class="texto-história">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum fugiat repellat error magnam dicta odio ipsa dignissimos expedita excepturi amet totam quam, aspernatur temporibus magni doloremque sapiente dolor. Modi, necessitatibus?
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, amet autem, sequi dolor numquam esse nam officia fuga ipsam pariatur est quis obcaecati corrupti? Sunt corrupti dicta animi natus a.
+                        Em uma roda de pamonha entre amigos da família Lobo, tradicional da cidade de Goiás, surgiu a primeira ideia do que viria a ser Frutos da Terra. A geógrafa recém-formada Elcymar Lobo sonhava em fazer seu curso de especialização no exterior, mas não possui condições financeira no momento para realiza-lo. A paixão pela culinária goiana já existia em sua família, principalmente por parte de sua mãe, Ione de Oliveira Lobo, que adorava exercer seus dotes culinários. Foi ali compartilhando delícias com amigos, que Ione sugeriu que a filha abrisse
+uma pamonharia. Em meados da década de 1980 surgiu a Frutos da terra, uma portinha para a rua que rapidamente ganhou fama e se tornou ponto de encontro de amigos e apreciadores da culinária do nosso estado. A família Lobo administra o negócio há mais de 30 anos, com muito orgulho e dedicação dessa história.
+
+
+Obrigada a cada cliente que aprecia conosco as delícias da nossa terra.
                     </p>
     
                 </div>
@@ -140,7 +145,10 @@
                             <img src="img/IMG-20240521-WA0035.jpg" class="d-block w-100" alt="...">
                           </div>
                           <div class="carousel-item" data-bs-interval="5000">
-                            <img src="img/IMG-20240521-WA0037.jpg" class="d-block w-100" alt="...">
+                            <img src="img/IMG-20240522-WA0042.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item" data-bs-interval="5000">
+                            <img src="img/IMG-20240521-WA0038.jpg" class="d-block w-100" alt="...">
                           </div>
                           <div class="carousel-item">
                               <img src="img/IMG-20240522-WA0041.jpg" class="d-block w-100" alt="...">
@@ -155,13 +163,11 @@
                           <span class="visually-hidden">Next</span>
                         </button>
                     </div>
-
-                    <button class="btn btn-primario mt-2">Ver História completa</button>
                 </div>
             </div>
         </section>
 
-        <section class="section-localizacao mt-md-5">
+        <section class="section-localizacao mt-md-5 text-center" id="contato">
             <h2>Venha conhecer pessoalmente!</h2>
             <p class="texto-secundario">Lorem ipsum dolor sit amet consectetur.</p>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3837.2145841909287!2d-47.78616162527109!3d-15.897825125509652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a2139df31733f%3A0xb88c629cd60de6ab!2sPamonharia%20A%20Saborosa!5e0!3m2!1spt-BR!2sbr!4v1716499263574!5m2!1spt-BR!2sbr" class="maps" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -203,7 +209,7 @@
                     <div class="borda"></div>
 
                     <a href=""><i class="fa-brands fa-whatsapp icon-footer"></i></a>
-                    <a href=""><i class="fa-brands fa-instagram icon-footer"></i></a>
+                    <a href="https://www.instagram.com/pamonharia_a_saborosa/"><i class="fa-brands fa-instagram icon-footer"></i></a>
 
                 </div>
             </div>

@@ -3,7 +3,7 @@
 
 /*cor de fundo pra testa #f4f2e7*/
 :root {
-    --cor-de-fundo: #FBF6D8;
+    --cor-de-fundo: #faf4d0;
     --cor-da-fonte: #431F14;
     --cor-butao-primario: #EBBF0A;
     --cor-whats: #29e870;
@@ -112,7 +112,7 @@ body {
 /*Midia pc*/
 @media (min-width:1200px) {
     #titulo-principal {
-        font-size: 60px;
+        font-size: 69px;
     }
 
     .texto-secundario {
@@ -130,9 +130,10 @@ body {
 
 
     .texto-história {
-        font-size: 20px;
+        font-size: 19px;
         font-weight: 300;
-        line-height: 35px;
+        line-height: 30px;
+        padding-right: 40px;
     }
 
     .maps{
@@ -140,15 +141,32 @@ body {
         height: 600px;
     }
 
+    #conteudo {
+        width: 1250px;
+    }
+
+   
+
 }
+
+.card {
+    min-width: 250px;
+}
+
+.img-card {
+    width: 250px;
+    height: 250px;
+    padding: 5px;
+}
+
 
 /*NavBar*/
 .navbar {
     display: flex;
     margin: auto;
-    height: 130px;
     font-size: 16px;
     box-shadow: 1px 1px 5px rgba(171, 171, 171, 0.562);
+    
 }
 
 .titulo-navbar {
@@ -268,6 +286,14 @@ body {
 
 .carousel-item {
     border: 3px solid #f7f7f7;
+}
+
+
+/*maps*/
+
+.maps{
+    display: flex;
+    margin: auto;
 }
 
 /*Footer*/
